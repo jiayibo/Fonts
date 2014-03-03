@@ -6,11 +6,33 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
     tools:context=".FontList" >
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fontString"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:editable="true"
+        android:background="#FFFFFF"/>
+    <SeekBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/fontString" />
+        android:id="@+id/seekBar"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expandableListView"
+        android:layout_below="@+id/seekBar"  />
+
 
 </RelativeLayout>

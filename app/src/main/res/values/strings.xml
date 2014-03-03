@@ -3,7 +3,13 @@
 
     <string name="app_name">AndroidFontList</string>
     <string name="action_settings">Settings</string>
-    <string name="fontString">Show Font here</string>
+    <string name="fontString">ABCDEFGHIJKLM\nNOPQRSTUVWXYZ\nabcdefghijklm\nnopqrstuvwxyz\n1234567890</string>
+    <string name="fontStringJa">あのイーハトーヴォの\n郊外のぎらぎらひかる草の波。\n祇辻飴葛蛸鯖鰯噌庖箸\nABDEFghijklm\n1234567890</string>
+    <string name="fontStringCn">すきとおった風\n包子油条,胡辣汤\n兙兛兞兝兡兣嗧瓩糎\nABCDEFghijkln\n1234567890</string>
+    <string name="fontStringHebrew">אבגדהוזחטיכל\n    מנסעפצקרשת\n    םןףץ\n1234567890</string>
+    <string name="fontStringEmoji">U+1F601</string>
+
     <string name="title_activity_show_font">ShowFont</string>
+    <string name="menu_reset">reset</string>
 
 </resources>

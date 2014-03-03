@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/CORPUSERS/28850631/workspace/AndroidFontList1/app/src/main/res/values-sw720dp-land/dimens.xml -->
+    <!-- From: file:/Users/jiayibo/Code/Fonts/app/src/main/res/values-sw720dp-land/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">128dp</dimen>
